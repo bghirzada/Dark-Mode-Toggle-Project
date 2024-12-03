@@ -1,0 +1,53 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+header{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+    background-color: rgb(110, 100, 100);
+    color: white;
+
+    .apple-img{
+        width: 30px;
+        height: 30px;
+        color: white;
+
+    }
+
+    ul{
+        display: flex;
+        gap: 20px;
+        list-style: none;
+        align-items: center;
+        font-size: 16px;
+
+        li:hover {
+            color: black;
+            cursor: pointer;
+        }
+    }
+
+    .mode-img{
+        width: 30px;
+        height: 30px;
+    }
+
+}
+
+section{
+    font-size: 24px;
+    padding: 80px;
+}
+
+#bodySection {
+    transition: all 0.5s ease;
+}
+#darkmode:hover {
+    transform: scale(1.3);
+}
